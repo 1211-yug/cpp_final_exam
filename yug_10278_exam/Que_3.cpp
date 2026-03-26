@@ -59,8 +59,13 @@ int main(){
     r.setColor("Blue");
     r.setValues(4, 6);
 
-    cout << "Circle Area: " << c.area() << endl;
-    cout << "Rectangle Area: " << r.area() << endl;
+	cout << "================================" << endl;
+	cout << "Circle Color :- " << c.getColor() << endl;
+    cout << "Circle Area :- " << c.area() << endl;
+	cout << "================================" << endl;
+	cout << "Rectangle Color :- " << r.getColor() << endl;
+    cout << "Rectangle Area :- " << r.area() << endl;
+	cout << "================================" << endl;
 
     return 0;
 }
