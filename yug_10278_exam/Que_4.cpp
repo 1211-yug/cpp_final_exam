@@ -8,15 +8,15 @@ class Shape{
 	    string color;
 	
 	public:
-	    void setColor(string c) {
+	    void setColor(string c){
 	        color = c;
 	    }
 	
-	    string getColor() {
+	    string getColor(){
 	        return color;
 	    }
 	
-	    virtual float area() = 0; // Pure virtual
+	    virtual float area() = 0;
 	};
 
 int main(){
